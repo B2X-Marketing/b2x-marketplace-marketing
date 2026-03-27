@@ -1,0 +1,32 @@
+{
+  "name": "b2x-plugins",
+  "owner": {
+    "name": "B2X Marketing",
+    "email": "info@b2xmarketing.com"
+  },
+  "metadata": {
+    "description": "B2X Marketing consulting tools for Claude Code",
+    "version": "1.0.0",
+    "homepage": "https://github.com/B2X-Marketing/b2x-plugins"
+  },
+  "plugins": [
+    {
+      "name": "strategy",
+      "source": "./plugins/strategy",
+      "description": "Marketing strategy (8-layer framework), market research (6 dimensions), SWOT analysis with TOWS, and voice profile management.",
+      "version": "1.0.0",
+      "author": { "name": "Luis Capobianco" },
+      "category": "Marketing Growth",
+      "keywords": ["strategy", "marketing", "research", "swot", "consulting"]
+    },
+    {
+      "name": "search-intelligence",
+      "source": "./plugins/search-intelligence",
+      "description": "AEO/GEO auditing suite: technical site audit (D1+D2), authority and distribution audit (D3), and AI visibility monitoring (D4) across ChatGPT, Perplexity, Gemini, and Claude.",
+      "version": "1.0.0",
+      "author": { "name": "Luis Capobianco" },
+      "category": "Marketing Growth",
+      "keywords": ["aeo", "geo", "ai-visibility", "seo", "citation", "authority"]
+    }
+  ]
+}

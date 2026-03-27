@@ -1,0 +1,9 @@
+{
+  "name": "search-intelligence",
+  "version": "1.0.0",
+  "description": "AEO/GEO site audit, authority audit, and AI visibility monitoring across ChatGPT, Perplexity, Gemini, and Claude",
+  "author": {
+    "name": "Luis Capobianco"
+  },
+  "keywords": ["aeo", "geo", "ai-visibility", "seo", "citation", "authority", "eeat"]
+}
