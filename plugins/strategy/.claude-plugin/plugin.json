@@ -1,9 +1,9 @@
 {
   "name": "strategy",
   "version": "1.0.0",
-  "description": "Marketing strategy, market research, SWOT analysis, and voice profile management for B2X Marketing consulting engagements",
+  "description": "Marketing strategy, market research, SWOT analysis, voice profile management, and brand design (color palettes + typography systems) for B2X Marketing consulting engagements",
   "author": {
     "name": "Luis Capobianco"
   },
-  "keywords": ["strategy", "marketing", "research", "swot", "consulting", "voice-profile"]
+  "keywords": ["strategy", "marketing", "research", "swot", "consulting", "voice-profile", "brand-design", "color", "typography"]
 }

@@ -1,0 +1,29 @@
+{
+  "skill_name": "brand-design",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I have a fintech startup called Vaulta that helps small businesses manage cash flow. Our brand personality is 'confident, approachable, and modern' — we're not a stiff bank, but we need to feel trustworthy. Target audience is small business owners aged 30-50. Competitors include Mercury (blue/purple), Brex (black/orange), and Ramp (green/yellow). Create a complete brand identity — colors and fonts — with a few different directions I can choose from.",
+      "expected_output": "Three distinct visual identity directions, each with a complete color palette (primary, secondary, accent, neutrals, semantic, tint/shade scales with OKLCH + hex), typography system (primary + secondary fonts, type scale, spacing rules), CSS implementation, and character statement explaining trade-offs. Should avoid competitor colors and feel fintech-appropriate but differentiated.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Our brand primary color is #E63946 (a bold red). We're a direct-to-consumer fitness brand. Build out the rest of our color palette — we need secondary colors, an accent for CTAs, neutrals, and all the UI states (success, error, warning, info). We also need dark mode support. Focus on colors only.",
+      "expected_output": "A complete palette built from the red primary, including: harmony model selection with rationale, 1-2 secondary colors, an accent, tinted neutral scale, semantic colors (with special attention to differentiating the error red from the brand red), full tint/shade scales with OKLCH + hex + contrast ratios, dark mode adaptation, and CSS custom properties. Should flag accessibility issues.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "We're using Inter as our body font for a B2B SaaS product (project management tool for creative teams). I need a heading font to pair with it. The brand is creative but organized — think 'structured creativity'. We need something available on Google Fonts. Font only please.",
+      "expected_output": "A structural profile of Inter (humanist sans, large x-height, open apertures, etc.), a pairing strategy, and 3 heading font recommendations spanning safe to distinctive. Each with: name, classification, license, pairing rationale (shared qualities + contrast dimensions), structural comparison table, usage guidance, and CSS implementation with @font-face, type scale, and OpenType features.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Take a look at apple.com and analyze their current color palette and typography system. Tell me how well they're executing — what's working and what could be improved. Analyze both color and type.",
+      "expected_output": "Extraction of Apple's actual colors and fonts from their website, followed by a structured diagnostic covering: color fidelity, proportion, harmony, accessibility, context adaptation, plus typography fidelity, hierarchy, scale, spacing, readability, and pairing quality. Should include an overall alignment score, top issues, what's working, and specific implementation observations.",
+      "files": []
+    }
+  ]
+}
